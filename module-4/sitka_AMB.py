@@ -11,7 +11,7 @@
 import csv
 import sys
 from datetime import datetime
-import matplotlib.pyplot as plt
+import matplotlib as plt
 
 # ---------------------------------------------------------
 # Function to read CSV data and return date, highs, lows
