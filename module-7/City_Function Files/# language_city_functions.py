@@ -7,6 +7,6 @@ def city_country(city, country, language, population=None):
     return f"{city.title()}, {country.title()}, {language.title()}"
 
 # Calls
-print(city_country("santiago", "chile", 5000000, "spanish"))
-print(city_country("tokyo", "japan", 14000000, "japanese"))
-print(city_country("memphis", "united states", None, "english"))
+print(city_country("santiago", "chile", "spanish", 5000000))
+print(city_country("tokyo", "japan", "japanese", 14000000))
+print(city_country("paris", "france", "french", 2148000))
